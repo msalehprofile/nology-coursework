@@ -1,0 +1,46 @@
+@use "./variables" as *;
+@use "./components";
+@use "./layout";
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: $color-primary;
+}
+
+a {
+    text-decoration: none;
+    background-color: $color-footer;
+}
+
+* {
+    font-family: $font-body;
+}
+
+.italic {
+    font-style: italic;
+    font-weight: 100;
+}
+
+.bold {
+    font-weight: 400;
+}
+
+.skinny {
+    font-weight: 100;
+}
+
+.logo {
+    font-family: $font-logo;
+    color: $color-text-second;
+}
+
+.imglogo {
+    height: 80px;
+}
+
+.logogroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

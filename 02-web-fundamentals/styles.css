@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Mandali&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap");
+.navigation {
+  height: 80px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation .logo {
+  font-size: 60px;
+  margin: 4px 8px;
+}
+.navigation .button {
+  background-color: rgb(255, 255, 255);
+  border: 1.5px solid rgb(43, 48, 82);
+  color: rgb(43, 48, 82);
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 4px;
+}
+
+.intro {
+  text-align: center;
+  padding: 40px 80px;
+}
+.intro .l1 {
+  color: rgb(30, 170, 238);
+  font-size: 30px;
+  font-family: "Andika", "sans-sefif";
+  padding: 0 9px;
+}
+.intro .phone {
+  height: 400px;
+  padding: 20px;
+  margin: 10px 0px 0px;
+}
+.intro .l2 {
+  color: rgb(43, 48, 82);
+  margin: 15px 20px;
+  font-size: 22px;
+}
+.intro .l3 {
+  color: rgb(30, 170, 238);
+  margin: 30px 10px;
+  font-size: 20px;
+}
+.intro .l4 {
+  color: rgb(43, 48, 82);
+  margin: 10px;
+  font-size: 16px;
+  font-weight: 100;
+}
+.intro .button {
+  background-color: rgb(43, 48, 82);
+  color: white;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 5px;
+  margin: 20px 0px 10px;
+}
+
+.l5 {
+  color: rgb(43, 48, 82);
+  margin: 0px 4px 10px 4px;
+  font-size: 20px;
+}
+
+.inclusions {
+  padding: 0px 60px;
+  color: rgb(43, 48, 82);
+  font-size: 14px;
+}
+.inclusions .p1 {
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inclusions .p2 {
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inclusions .p3 {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inclusions .p4 {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inclusions .button {
+  background-color: rgb(43, 48, 82);
+  color: white;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 5px;
+  margin: 20px 0px 10px;
+}
+
+.footer {
+  font-family: "roboto", "sans-sefif";
+  justify-content: space-between;
+}
+
+span {
+  font-weight: 800;
+}
+
+.penguin {
+  height: 80px;
+  margin: 4px 14px;
+}
+
+.intro {
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.inclusions {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.footnote {
+  height: 150px;
+  margin: 30px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(253, 252, 213);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none;
+  background-color: rgb(253, 252, 213);
+}
+
+* {
+  font-family: "roboto", "sans-sefif";
+}
+
+.italic {
+  font-style: italic;
+  font-weight: 100;
+}
+
+.bold {
+  font-weight: 400;
+}
+
+.skinny {
+  font-weight: 100;
+}
+
+.logo {
+  font-family: "Grandstander";
+  color: rgb(43, 48, 82);
+}
+
+.imglogo {
+  height: 80px;
+}
+
+.logogroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=styles.css.map */

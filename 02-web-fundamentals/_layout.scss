@@ -1,0 +1,27 @@
+@use "./variables" as *;
+
+.intro {
+    height: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inclusions {
+    height: 70vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.footnote {
+    height: 150px;
+    margin: 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: $color-footer;
+}
