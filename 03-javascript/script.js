@@ -51,3 +51,18 @@ getLastName(['autumn',"sally",'charlie','nour']);
 
 
 // 5. Write a function that takes an array of numbers and returns true if all of the numbers are positive. It should return false if there are one or more negative numbers in the array.
+let allNumbersPositive = (numbers) => {
+    const min = Math.min.apply(Math,numbers)
+    if (min<0) {
+        console.log("False");
+    } else if (min>0) {
+        console.log("True");
+    } else {
+        console.log("The smallest number is zero, which is neither positive or negative")
+    }
+}
+
+allNumbersPositive([4,-1,2])
+allNumbersPositive([4,2,2])
+allNumbersPositive([4,2,2,-29])
+allNumbersPositive([4,2,2,0])
